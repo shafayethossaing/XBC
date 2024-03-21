@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "g:/Phitron-XB-Club/First-Week/Day-4",
-      "program": "g:/Phitron-XB-Club/First-Week/Day-4/build/Debug/outDebug",
+      "cwd": "g:/Phitron-XB-Club/First-Week/Day-6",
+      "program": "g:/Phitron-XB-Club/First-Week/Day-6/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
