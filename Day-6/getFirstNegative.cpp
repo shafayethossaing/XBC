@@ -22,17 +22,18 @@ int main(){
         if(right-left+1 == k){
             // if q is not empty
             if(!q.empty()){
-                ans.push_back(q.front());
-            }else ans.push_back(0);
-            left++; right++;
-
-            // Check for pop
-            if(!q.empty()){
-                if(v[left] != q.front()) q.pop();
+                cout<<q.front()<<" ";
+                if(v[left] == q.front()) q.pop();
+                left++;
+            }else {
+                cout<<0<<" ";
+                left++;
             }
-        }else right++;
+            right++;
+        }
+        else right++;
     }
-    for(auto el:ans) cout<<el<<" ";
+    // for(auto el:ans) cout<<el<<" ";
 
     return 0;
 }
